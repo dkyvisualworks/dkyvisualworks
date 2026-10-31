@@ -219,7 +219,7 @@ export const APP_CONFIG = {
       title: "Video Animasi 2D Explainer - Satu Menit Selamat (Self CPR)",
       category: "Video & Motion",
       image: "/assets/aistudio/ILM SATU MENIT SELAMAT EDISI SELF CPR.jpg",
-      videoUrl: "/videos/Satu Menit Selamat.mp4",
+      videoUrl: "https://www.youtube.com/watch?v=VbhkQXoDx68",
       description: "Video animasi 2D explainer Iklan Layanan Masyarakat (ILM) 'Satu Menit Selamat: Self CPR' dengan visual kartun edukatif dan narasi profesional."
     },
     {
@@ -227,7 +227,7 @@ export const APP_CONFIG = {
       title: "Video Iklan Komersial Produk Nescafe",
       category: "Video & Motion",
       image: "/assets/aistudio/nescafe.jpg",
-      videoUrl: "/videos/Dumy Projrct Iklan nescafe.mp4",
+      videoUrl: "https://www.youtube.com/watch?v=RGMWYlcLf7o",
       description: "Motion video komersial produk minuman kopi Nescafe untuk promosi kampanye digital di media sosial."
     },
     {
@@ -235,7 +235,7 @@ export const APP_CONFIG = {
       title: "Video Konten UGC Iklan & Affiliate Marketing",
       category: "Video & Motion",
       image: "/assets/aistudio/Layanan Konten UGC untuk Affiliate.png",
-      videoUrl: "/videos/UGC Iklan Affiliate.mp4",
+      videoUrl: "https://www.youtube.com/watch?v=0eO_ZEGjvl4",
       description: "Produksi video konten UGC (User Generated Content) kreatif untuk promosi produk TikTok Shop, Reels, dan kampanye affiliate berkonversi tinggi."
     }
   ],
