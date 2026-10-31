@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #F8F9FA;
+    color: #18191B;
+    overflow-x: hidden;
+  }
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Nimbus Vibrant Yellow Accents */
+.nimbus-yellow-bg {
+  background-color: #FFB800;
+}
+
+.nimbus-yellow-text {
+  color: #FFB800;
+}
+
+.nimbus-btn-yellow {
+  background-color: #FFB800;
+  color: #18191B;
+  transition: all 0.2s ease-in-out;
+}
+.nimbus-btn-yellow:hover {
+  background-color: #F2AC00;
+  transform: translateY(-1px);
+}
+
+.nimbus-btn-black {
+  background-color: #18191B;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+.nimbus-btn-black:hover {
+  background-color: #2D2E32;
+  transform: translateY(-1px);
+}
+
+/* Organic Blobs mimicking the reference image */
+.blob-yellow {
+  border-radius: 64% 36% 48% 52% / 46% 58% 42% 54%;
+}
+
+.blob-organic {
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+}
+
+/* Floating Card Soft Shadow */
+.nimbus-card-shadow {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+.nimbus-badge-shadow {
+  box-shadow: 0 8px 25px rgba(255, 184, 0, 0.25);
+}
